@@ -39,7 +39,7 @@ android {
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.example.objet_detection"
-        minSdkVersion 16
+        minSdkVersion 20
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -53,7 +53,7 @@ android {
         }
     }
 
-    aaptOption{
+    aaptOptions{
         noCompress  'tflite'
         noCompress  'lite'
     }
